@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const PORT = 3200;
 
 // Configuración de las rutas
 app.get('/', (req, res) => {
@@ -15,4 +15,3 @@ app.get('/about', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor iniciado en http://localhost:${PORT}`);
 });
-
